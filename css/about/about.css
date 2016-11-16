@@ -42,7 +42,7 @@ html {
 	padding-left: 20px;
 	padding-top: -10px;
 	padding-bottom: -10px;
-	padding-right: 70px;
+	padding-right: 20px;
 	display: inline-block;
 	float: left;
 }
@@ -51,21 +51,12 @@ html {
 	width: 70%;
 }
 
-.staff {
-	margin-bottom: 60px;
+.body {
+	clear: both;
 	display: block;
 	float: left;
 	margin-top: 60px;
-	font-size: 20px;
 	margin-left: 20px;
-	clear: both;
-}
-
-.staff > table {
-	border: solid 2px black;
-}
-
-td {
-	padding-left: 20px;
-	padding-right: 20px;
+	margin-right: 30%;
+	font-size: 20px;
 }
