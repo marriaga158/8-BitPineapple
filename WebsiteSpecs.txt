@@ -1,0 +1,8 @@
+Pages
+- Main
+- Staff
+- Staff Application
+- Donation
+
+Color Scheme
+Blue, green, and orange
