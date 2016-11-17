@@ -1,0 +1,67 @@
+html {
+	height: 100%;
+	font-family: Roboto, serif; 
+	background-color: #fcba58;
+	background: #ffa84c; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #ffa84c 0%, #ff7b0d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #ffa84c 0%,#ff7b0d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #ffa84c 0%,#ff7b0d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ }
+ 
+ .navbar {
+	display: block;
+}
+
+.navbar > ul {
+	list-style-type: none;
+	float: left;
+	background-color: rgba(47, 82, 252, 0.8);
+	padding: 20px;
+	width: 100%;
+}
+
+.navbar > ul > li {
+	float: left;
+	margin-left: 60px;
+	margin-right: 60px;
+	text-decoration: none;
+}
+
+.navbar > ul > li > a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 17px;
+}
+
+.header {
+	margin-left: 20px;
+	margin-top: 30px;
+	background-color: rgba(255, 255, 255, 0.8);
+	font-size: 40px;
+	padding-left: 20px;
+	padding-top: -10px;
+	padding-bottom: -10px;
+	padding-right: 20px;
+	display: inline-block;
+	float: left;
+}
+
+#container {
+	width: 70%;
+}
+
+.games {
+	clear: both;
+	display: block;
+	float: left;
+	margin-top: 60px;
+	margin-left: 20px;
+	margin-right: 30%;
+	font-size: 20px;
+}
+
+td {
+	padding: 20px;
+	font-size: 20px;
+}
