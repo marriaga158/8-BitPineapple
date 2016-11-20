@@ -1,12 +1,7 @@
 html {
 	height: 100%;
 	font-family: Roboto, serif; 
-	background-color: #fcba58;
-	background: #ffa84c; /* Old browsers */
-	background: -moz-linear-gradient(-45deg, #ffa84c 0%, #ff7b0d 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(-45deg, #ffa84c 0%,#ff7b0d 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(135deg, #ffa84c 0%,#ff7b0d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background-color: #fffbf4;
  }
  
  .navbar {
@@ -16,7 +11,7 @@ html {
 .navbar > ul {
 	list-style-type: none;
 	float: left;
-	background-color: rgba(47, 82, 252, 0.8);
+	background-color: #000;
 	padding: 20px;
 	width: 100%;
 }
@@ -37,14 +32,15 @@ html {
 .header {
 	margin-left: 20px;
 	margin-top: 30px;
-	background-color: rgba(255, 255, 255, 0.8);
-	font-size: 40px;
+	background-color: #eda03b;
+	font-size: 30px;
 	padding-left: 20px;
 	padding-top: -10px;
 	padding-bottom: -10px;
 	padding-right: 20px;
 	display: inline-block;
 	float: left;
+	border-radius: 10px;
 }
 
 .body {
