@@ -9,31 +9,41 @@
 </head>
 
 <body>
+	<script src="js/sidebartest.js"></script>
 	<div id="container">
-		<div class="navbar">
-			<ul>
-				<li><a href="index.html">8-Bit Pineapple Home</a></li>
-				<li><a href="staff.html">Staff</a></li>
-				<li><a href="docs.google.com/forms/d/e/1FAIpQLScdk_d1x2urASjAD3PiTWZxTBZ_t8MiQWpeZQ_eOTtxYjus5g/viewform">Apply For a Staff Position</a></li>
-				<li><a href=#>Donate</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="games.html">Games</a></li>
-			</ul>
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="index.html">8-Bit Pineapple Home</a>
+			<a href="staff.html">Staff</a>
+			<a href="docs.google.com/forms/d/e/1FAIpQLScdk_d1x2urASjAD3PiTWZxTBZ_t8MiQWpeZQ_eOTtxYjus5g/viewform">Apply For a Staff Position</a>
+			<a href=#>Donate</a>
+			<a href="about.html">About</a>
+			<a href="games.html">Games</a>
 		</div>
-		<div class="header">
-			<h1>Welcome to 8-Bit Pineapple!</h1>
+		
+		<div id="menuOpen">
+			<span onclick="openNav()">Menu</span>
 		</div>
-	</div>
-	<div class="body">
-		<p>
-			Welcome to the website! This is the official website of the 8-Bit Pineapple network. This network was created to
-			make a community for people to have fun, play games with friends, and make new ones.
-		</p>
-	</div>
-	<div class="button">
-		<a href="https://discord.gg/sF2nYyk">Click here to join our Discord server</a>
-	</div>
-	<div class="steam">
-		<a href="https://steamcommunity.com/groups/8bitpineapple">Click here to join our Steam group</a>
+		
+		<div id="main">
+			<div class="header">
+				<h1>Welcome to 8-Bit Pineapple!</h1>
+			</div>
+			
+			<div class="body">
+				<p>
+					Welcome to the website! This is the official website of the 8-Bit Pineapple network. This network was created to
+					make a community for people to have fun, play games with friends, and make new ones.
+				</p>
+			</div>
+			
+			<div class="button">
+				<a href="https://discord.gg/sF2nYyk">Click here to join our Discord server</a>
+			</div>
+			
+			<div class="steam">
+				<a href="https://steamcommunity.com/groups/8bitpineapple">Click here to join our Steam group</a>
+			</div>
+		</div>
 	</div>
 </html>
