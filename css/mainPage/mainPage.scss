@@ -15,10 +15,26 @@
 	float: left;
 	background-color: #8811F7;
 	padding: 40px;
-	margin-left: 300px;;
+	margin-left: 200px;
+	border-radius: 10px;
 }
 
 .button > a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 30px;
+}
+
+.steam {
+	display: block;
+	float: left;
+	background-color: #5e6063;
+	padding: 40px;
+	margin-left: 300px;
+	border-radius: 10px;
+}
+
+.steam > a {
 	text-decoration: none;
 	color: #FFF;
 	font-size: 30px;
