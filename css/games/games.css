@@ -1,60 +1,53 @@
 html {
-	height: 100%;
-	font-family: Roboto, serif; 
-	background-color: #fffbf4;
- }
- 
- .navbar {
-	display: block;
-}
+  height: 100%;
+  font-family: Roboto, serif;
+  background-color: #fffbf4; }
+
+.navbar {
+  display: block; }
 
 .navbar > ul {
-	list-style-type: none;
-	float: left;
-	/* background-color: rgba(47, 82, 252, 0.8); */
-	background-color: #000;
-	padding: 20px;
-	width: 100%;
-}
+  list-style-type: none;
+  float: left;
+  background-color: #000;
+  padding: 20px;
+  width: 100%; }
 
 .navbar > ul > li {
-	float: left;
-	margin-left: 60px;
-	margin-right: 60px;
-	text-decoration: none;
-}
+  float: left;
+  margin-left: 60px;
+  margin-right: 60px;
+  text-decoration: none; }
 
 .navbar > ul > li > a {
-	text-decoration: none;
-	color: #FFF;
-	font-size: 17px;
-}
+  text-decoration: none;
+  color: #FFF;
+  font-size: 17px; }
 
 .header {
-	margin-left: 20px;
-	margin-top: 30px;
-	background-color: #eda03b;
-	font-size: 30px;
-	padding-left: 20px;
-	padding-top: -10px;
-	padding-bottom: -10px;
-	padding-right: 20px;
-	display: inline-block;
-	float: left;
-	border-radius: 10px;
-}
+  margin-left: 20px;
+  margin-top: 30px;
+  background-color: #eda03b;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: -40px;
+  padding-bottom: -40px;
+  padding-right: 20px;
+  display: inline-block;
+  float: left;
+  border-radius: 10px; }
 
 .games {
-	clear: both;
-	display: block;
-	float: left;
-	margin-top: 60px;
-	margin-left: 20px;
-	margin-right: 30%;
-	font-size: 20px;
-}
+  clear: both;
+  display: block;
+  float: left;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 30%;
+  font-size: 20px; }
 
 td {
-	padding: 20px;
-	font-size: 20px;
-}
+  padding: 20px;
+  font-size: 20px; }
+
+/*# sourceMappingURL=games.css.map */

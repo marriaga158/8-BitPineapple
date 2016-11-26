@@ -1,0 +1,20 @@
+@import '../sassvars/default';
+
+.staff {
+	margin-bottom: 60px;
+	display: block;
+	float: left;
+	margin-top: 60px;
+	font-size: 20px;
+	margin-left: 20px;
+	clear: both;
+}
+
+.staff > table {
+	border: solid 2px black;
+}
+
+td {
+	padding-left: 20px;
+	padding-right: 20px;
+}
