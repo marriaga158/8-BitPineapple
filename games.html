@@ -9,32 +9,41 @@
 </head>
 
 <body>
+	<script src="js/sidebartest.js"></script>
 	<div id="container">
-		<div class="navbar">
-			<ul>
-				<li><a href="index.html">8-Bit Pineapple Home</a></li>
-				<li><a href="staff.html">Staff</a></li>
-				<li><a href="docs.google.com/forms/d/e/1FAIpQLScdk_d1x2urASjAD3PiTWZxTBZ_t8MiQWpeZQ_eOTtxYjus5g/viewform">Apply For a Staff Position</a></li>
-				<li><a href=#>Donate</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="games.html">Games</a></li>
-			</ul>
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="index.html">8-Bit Pineapple Home</a>
+			<a href="staff.html">Staff</a>
+			<a href="docs.google.com/forms/d/e/1FAIpQLScdk_d1x2urASjAD3PiTWZxTBZ_t8MiQWpeZQ_eOTtxYjus5g/viewform">Apply For a Staff Position</a>
+			<a href=#>Donate</a>
+			<a href="about.html">About</a>
+			<a href="games.html">Games</a>
 		</div>
+	</div>
+	
+	<div id="menuOpen">
+		<span onclick="openNav()">Menu</span>
+	</div>
+		
+	
+	<div id="main">
 		<div class="header">
 			<h1>Games</h1>
 		</div>
-	</div>
-	<div class="games">
-		<table>
-			<tr>
-				<td>DiRT Rally-</td>
-				<td><a href="https://www.dirtgame.com/uk/leagues/league/64977/8-bit-pineapple">RaceNet League</a></td>
-			</tr>
-			<tr>
-				<td>Minecraft Server-</td>
-				<td>8bitpineapple.serverminer.com</td>
-			</tr>
-		</table>
+		
+		<div class="games">
+			<table>
+				<tr>
+					<td>DiRT Rally-</td>
+					<td><a href="https://www.dirtgame.com/uk/leagues/league/64977/8-bit-pineapple">RaceNet League</a></td>
+				</tr>
+				<tr>
+					<td>Minecraft Server-</td>
+					<td>8bitpineapple.serverminer.com</td>
+				</tr>
+			</table>
+		</div>
 	</div>
 </body>
 
