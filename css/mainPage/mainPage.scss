@@ -1,32 +1,26 @@
-@import '../sassvars/default';
-@import '../sassvars/sidebar';
-
-.button {
-	display: block;
-	float: left;
-	background-color: #8811F7;
-	padding: 40px;
-	margin-left: 200px;
-	border-radius: 10px;
+* {					/* CSS reset */
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
-.button > a {
-	text-decoration: none;
-	color: #FFF;
-	font-size: 30px;
+#imageThing {
+	background-color: red;
+	width: 100%;
 }
 
-.steam {
-	display: block;
-	float: left;
-	background-color: #5e6063;
-	padding: 40px;
-	margin-left: 300px;
-	border-radius: 10px;
+#topHeader {
+	background-color: #515459;
+	width: 100%;
 }
 
-.steam > a {
-	text-decoration: none;
-	color: #FFF;
-	font-size: 30px;
+#topHeader > h1 {
+	padding: 60px 40px 20px 10px;
+	font-family: Roboto;
+	font-size: 40px;
+	color: orange;
 }
