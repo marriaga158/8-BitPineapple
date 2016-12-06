@@ -6,20 +6,46 @@
   outline: 0;
   font-size: 100%;
   vertical-align: baseline;
-  background: transparent; }
+  background: transparent;
+  font-family: Roboto; }
 
-#imageThing {
-  background-color: red;
-  width: 100%; }
+.background {
+  width: 100%;
+  height: 500px;
+  float: left;
+  position: absolute;
+  z-index: -1000;
+  display: block;
+  background: #FFF url("../../fillerGrid.png") no-repeat fixed;
+  background-position: 50% 45%; }
 
 #topHeader {
   background-color: #515459;
-  width: 100%; }
+  width: 100%;
+  z-index: 1000; }
 
 #topHeader > h1 {
   padding: 60px 40px 20px 10px;
   font-family: Roboto;
   font-size: 40px;
   color: orange; }
+
+#transparent {
+  padding: 200px 0px;
+  width: 100%; }
+
+.button {
+  background-color: #cc00cc;
+  padding: 20px;
+  display: inline-block;
+  float: left;
+  margin-left: 20%;
+  border-radius: 10px; }
+
+.content {
+  z-index: 1000;
+  font-size: 40px;
+  background-color: #ccc;
+  padding: 30px; }
 
 /*# sourceMappingURL=mainPage.css.map */
